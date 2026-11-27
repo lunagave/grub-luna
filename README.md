@@ -77,3 +77,32 @@ grub-luna funciona sin perder el GRUB, con un solo botón se restaura como nuevo
 - 💾 Guardar con copia de seguridad
 - ❓ Acerca, con gatito negro y ?, basada, funciones, errores del anterior GRUB y mejoras
 - 🆘 Soporte / Ayuda: https://github.com/lunagave/grub-luna
+
+
+## 🗂️ Todo tipo de archivos
+- Temas completos: .tar, .tar.gz, .tar.xz, con theme.txt, iconos y fuentes
+- Imágenes de fondo: .png, .jpg / .jpeg, .tga
+- Tipografías: fuentes del sistema o .pf2
+- Archivos del sistema: /etc/default/grub, /etc/grub.d/, /boot/grub/grub.cfg, /boot/grub/themes/
+
+## 💻 Comandos
+### 🐧 Arch Pacman
+```bash
+sudo pacman -S --needed --noconfirm zenity && curl -L https://github.com/lunagave/grub-luna/raw/main/grub-luna-launcher1.zip -o ~/Descargas/grub-luna-launcher1.zip && cd ~/Descargas && unzip -o grub-luna-launcher1.zip && makepkg -si && bash ~/Descargas/grub-luna-installer.sh
+```
+### 🟠 Debian / Ubuntu .deb
+```bash
+curl -L https://github.com/lunagave/grub-luna/raw/main/grub-luna_1.0_all.deb -o ~/Descargas/grub-luna_1.0_all.deb && cd ~/Descargas && sudo dpkg -i grub-luna_1.0_all.deb && sudo apt install -f
+```
+### 💻 Actualiza tu GRUB
+Arch:
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+Debian/Ubuntu:
+```bash
+sudo update-grub
+```
+
+
+↩️ Restaurar GRUB anteriormente / originalmente: en el programa, con un solo botón, Restaurar GRUB originalmente, deja el GRUB como nuevo, como antes.
