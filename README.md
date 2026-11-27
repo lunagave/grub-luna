@@ -71,6 +71,7 @@ grub-luna funciona sin perder el GRUB, con un solo botón se restaura como nuevo
 - 🎨 Cambiar iconos, más de 20 estilos, con vista previa
 - 🎬 Video como fondo del GRUB
 - 📦 Biblioteca: 20 videos, 50 imágenes, 20 iconos, los de anime más descargados, con botón Descargar como tienda KDE
+- ⬇️ La Biblioteca descarga imágenes y videos: solo el fondo que el usuario elige, con el botón Descargar, para que no se haga pesado
 - 🗂️ Tipos: .tar.gz, .tar.xz, .tar, JPG, PNG, WEBP, MP4, MKV
 - 🎨 GRUB personalizados de GNOME y KDE Plasma, solo agregar archivo
 - 🚫 Sin comandos, sin descomprimir, sin terminal
