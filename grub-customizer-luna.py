@@ -59,15 +59,10 @@ ICONOS = [
 # Biblioteca: solo miniaturas/nombres en el programa; cada fondo se
 # descarga solo cuando el usuario pica Descargar, para que no pese.
 VIDEOS_ANIME = [
-    "Bleach - Ichigo", "Bleach - Bankai", "Naruto - Hokage", "One Piece - Luffy",
-    "Dragon Ball - Goku", "Demon Slayer - Tanjiro", "Jujutsu Kaisen - Gojo",
-    "Attack on Titan - Eren", "My Hero Academia - Deku", "One Punch Man - Saitama",
-    "Death Note - Light", "Tokyo Ghoul - Kaneki", "Sword Art Online - Kirito",
-    "Evangelion - Shinji", "Cowboy Bebop - Spike", "Fullmetal Alchemist - Edward",
-    "Hunter x Hunter - Gon", "Chainsaw Man - Denji", "Spy x Family - Anya",
-    "Kimetsu - Nezuko",
+    "Bleach - Ichigo", "Bleach - Bankai", "Anime ejemplo", "Anime real",
+    "Video ejemplo", "Video tranquilo", "Video realista",
 ]
-IMAGENES_ANIME = [f"Anime fondo {i:02d} - más descargado" for i in range(1, 51)]
+IMAGENES_ANIME = [f"Anime fondo {i:02d}" for i in range(1, 7)]
 ICONOS_BIBLIOTECA = [f"Icono {nombre}" for _, nombre in ICONOS[:20]]
 
 
@@ -390,9 +385,9 @@ class App(tk.Tk):
         lienzo.configure(yscrollcommand=barra.set)
         lienzo.pack(side="left", fill="both", expand=True)
         barra.pack(side="right", fill="y")
-        for seccion, items, tipo in (("🎬 Videos anime (20)", VIDEOS_ANIME, "video"),
-                                     ("🖼️ Imágenes anime (50)", IMAGENES_ANIME, "imagen"),
-                                     ("🎨 Iconos (20)", ICONOS_BIBLIOTECA, "icono")):
+        for seccion, items, tipo in (("🎬 Videos anime top más descargados", VIDEOS_ANIME, "video"),
+                                     ("🖼️ Imágenes anime top más descargadas", IMAGENES_ANIME, "imagen"),
+                                     ("🎨 Iconos top más descargados", ICONOS_BIBLIOTECA, "icono")):
             tk.Label(interior, text=seccion, bg=BG, fg=ACCENT,
                      font=("Arial", 11, "bold")).pack(anchor="w", padx=6, pady=(8, 2))
             for nombre in items:
