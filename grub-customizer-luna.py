@@ -218,7 +218,7 @@ class VentanaAcerca(tk.Toplevel):
             "• Cambia fondo, video, tiempo, sistema e iconos, con vista previa\n"
             "• Poner fondo + / Quitar fondo ×\n"
             "• Restaurar GRUB originalmente con un solo botón\n"
-            "• Biblioteca como tienda: 20 videos, 50 imágenes, 20 iconos, con Descargar\n"
+            "• Biblioteca como tienda: 20 videos, 20 imágenes, 20 iconos, con Descargar\n"
             "• Temas completos .tar.gz / .tar.xz / .tar\n"
             "• Imágenes anime, las más descargadas\n"
             "• Agregar video de fondo y cambiar icono\n"
@@ -530,7 +530,14 @@ class App(tk.Tk):
                                  f"No se pudo descargar {nombre}.\n{e}\n"
                                  f"Inténtalo de nuevo desde {REPO_URL}")
             return
-        messagebox.showinfo("Descargar", f"Descargado: {destino}")
+        # Automático: al descargar, se pone solo como fondo en la vista previa.
+        # Solo falta picar Guardar para aplicarlo a tu GRUB.
+        self.fondo_actual = destino
+        try:
+            self._actualizar_vista_previa()
+        except Exception:
+            pass
+        messagebox.showinfo("Descargar", f"Descargado y puesto como fondo: {destino}\nSolo falta picar Guardar.")
 
     def guardar(self):
         """Guardar: copia de seguridad primero, luego guardar, luego actualizar GRUB."""

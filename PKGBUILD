@@ -11,7 +11,7 @@ source=('grub-customizer-luna.py' 'grub-luna-installer-gui.py' 'grub-luna.deskto
         'media-generation-grub-luna-instalador-paso1-gat-0-495f56c1-d29f-4f76-b53d-2d01f8e39382.webp'
         'media-generation-grub-luna-instalador-paso2-0-3d175b6d-011a-4cb3-b1cd-a42609e09cbe.webp'
         'media-generation-grub-luna-instalador-paso3-0-18937017-82fd-44d6-a909-795352141355.webp')
-sha256sums=('33af89c972936f86beda943c6fab982b2f74a9315fbd0c4fa44fb5a2fc1f1e06'
+sha256sums=('6949dd855740a4d1b3cd8139119851b8762d9eb162ec2d1e45c4bf7314826867'
             'e4e22f30a9c76f8a8f16c0b30bfef63656c420396d72a0cb0b19df60a513597f'
             'd9c9c3cadacc96ffe65b6042e0297d2209dfe8b45e9796062f885edbe6ba41fd'
             '200d4b003916e200a90d3becb5600ae61e7e665573ebe49260ee94a069b4f177'
@@ -24,4 +24,6 @@ package() {
   install -Dm644 media-generation-grub-luna-instalador-paso1-gat-0-495f56c1-d29f-4f76-b53d-2d01f8e39382.webp "$pkgdir/usr/share/grub-luna/paso1.webp"
   install -Dm644 media-generation-grub-luna-instalador-paso2-0-3d175b6d-011a-4cb3-b1cd-a42609e09cbe.webp "$pkgdir/usr/share/grub-luna/paso2.webp"
   install -Dm644 media-generation-grub-luna-instalador-paso3-0-18937017-82fd-44d6-a909-795352141355.webp "$pkgdir/usr/share/grub-luna/paso3.webp"
+  install -Dm644 biblioteca/Anime_fondo_*.png -t "$pkgdir/usr/share/grub-luna/biblioteca/"
+  install -Dm644 biblioteca/Icono_*.png -t "$pkgdir/usr/share/grub-luna/biblioteca/"
 }
