@@ -63,6 +63,8 @@ VIDEOS_ANIME = [
     "Video ejemplo", "Video tranquilo", "Video realista",
     "Naruto - Hokage", "One Piece - Luffy", "Dragon Ball - Goku",
     "Demon Slayer - Tanjiro", "Jujutsu Kaisen - Gojo", "Attack on Titan - Eren",
+    "My Hero Academia - Deku", "One Punch Man - Saitama", "Death Note - Light",
+    "Tokyo Ghoul - Kaneki", "Sword Art Online - Kirito", "Evangelion - Shinji", "Cowboy Bebop - Spike",
 ]
 IMAGENES_ANIME = [f"Anime fondo {i:02d}" for i in range(1, 21)]
 ICONOS_BIBLIOTECA = [f"Icono {nombre}" for _, nombre in ICONOS[:20]]
