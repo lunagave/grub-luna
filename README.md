@@ -4,15 +4,11 @@ Basada en grub-customizer solo como información, crédito a Daniel Richter, su 
 Hecho por Vega & Kiki / Guzman
 
 
-
-
 ![Glass final](media-generation-grub-luna-glass-final-0-ba52cf50-fd84-44dd-b661-f6e95d7c9b6a.webp)
 ![Poner fondo](media-generation-grub-luna-poner-quitar-fondo-0-bd7848b7-f6dd-4731-9d99-0cad7039a070.webp)
 ![Iconos bonitos](media-generation-grub-luna-grubs-iconos-bonitos-0-13863d90-e98e-4802-811e-b1ae4de8b3c2.webp)
 ![Biblioteca](media-generation-grub-luna-biblioteca-0-88380d4b-0edf-4bfc-ba22-b86cc22dd8ae.webp)
 ![Acerca](media-generation-grub-luna-acerca-actualizado-0-b74ba500-5842-414a-a629-6e101b28885a.webp)
-
-
 
 
 ## 🔄 Diferencias: GRUB viejo y nuevo
@@ -38,8 +34,6 @@ Hecho por Vega & Kiki / Guzman
 - 🆘 Soporte / Ayuda: https://github.com/lunagave/proyecto
 
 
-
-
 ## 🗂️ Todo tipo de archivos
 Grub Customizer utiliza archivos comprimidos (.tar.gz, .tar.xz) para temas, imágenes (.png, .jpg, .tga) para fondos y modifica los archivos de configuración del sistema de GRUB2.
 Esta interfaz gráfica gestiona el cargador de arranque sin necesidad de editar código manualmente en la terminal.
@@ -55,16 +49,12 @@ Al guardar los cambios, grub-luna reescribe y actualiza los archivos internos de
 - /boot/grub/themes/
 
 
-
-
 ## 🚀 Mejoras
 - No se pierde el GRUB, con un solo botón se restaura como nuevo
 - Copia de seguridad automática antes de cambiar nada
 - Sin pantallas técnicas, sin CFG_DIR, sin DEVICEMAP_FILE
 - Interfaz Glass morada, moderna, fácil, sin terminal
 - Video como fondo, iconos, temas, Biblioteca como tienda con Descargar.
-
-
 
 
 ## 💻 Comandos
@@ -77,6 +67,3 @@ curl -L https://github.com/lunagave/proyecto/raw/main/grub-luna_0.1_all.deb -o ~
 ### 💻 Actualiza tu GRUB
 Arch: sudo grub-mkconfig -o /boot/grub/grub.cfg
 Debian/Ubuntu: sudo update-grub
-
-
-
