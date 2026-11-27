@@ -15,7 +15,7 @@ Hecho por Vega & Kiki / Guzman
 
 
 
-## 🔄 Diferencias: GRUB viejo y nuevo
+## 🔄 Diferencias: GRUB viejo y luna
 - ❌ Viejo: se perdía el GRUB, había que reinstalar la distro | ✅ Nuevo: un solo botón Restaurar GRUB, queda como nuevo
 - ❌ Viejo: pantallas técnicas CFG_DIR, DEVICEMAP_FILE, dolor de cabeza | ✅ Nuevo: sin pantallas técnicas, fácil, sin terminal
 - ❌ Viejo: a veces no leía los archivos | ✅ Nuevo: lee todos los archivos de GRUB, verifica y hace copia de seguridad
@@ -29,14 +29,13 @@ Hecho por Vega & Kiki / Guzman
 
 
 
-## 🛠️ Lenguaje y diferencia con grub-customizer
+## 🛠️ Lenguaje y diferencia con luna 
+grub-customizer
 
 
 
 
 El lenguaje NO es diferente, es el mismo de Luna: Python y tkinter.
-
-
 
 
 **Luna está hecha con:** Python, tkinter (ventana), mpv (fondo), makepkg (paquete Arch), zenity (instalador gráfico).
