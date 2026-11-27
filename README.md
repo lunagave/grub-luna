@@ -64,7 +64,7 @@ El lenguaje NO es diferente, es el mismo de Luna: Python y tkinter.
 grub-luna funciona sin perder el GRUB, con un solo botón se restaura como nuevo.
 
 
-## ✨ Funciones
+## ✨ Nuevas funciones
 - 📖 Lee todos los archivos de GRUB
 - 📁 Agregar GRUB / Agregar Carpeta
 - ➕ Poner fondo + / ❌ Quitar fondo ×
