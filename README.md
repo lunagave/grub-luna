@@ -106,4 +106,24 @@ sudo update-grub
 ```
 
 
+## 🗑️ Borrar grub-luna sin dañar tu GRUB original
+
+Para borrar grub-luna sin dañar tu GRUB original, sigue este orden:
+
+1. Primero, restaura tu GRUB original en el programa con el botón "Restaurar GRUB originalmente".
+2. Después, actualiza GRUB.
+3. Por último, desinstala grub-luna.
+
+Arch:
+```bash
+sudo pacman -Rns grub-luna
+```
+
+Debian/Ubuntu:
+```bash
+sudo apt remove --purge grub-luna
+```
+
+> **Nota:** No borres `/etc/default/grub` ni `/boot/grub` a mano. Restaurar lo deja como nuevo.
+
 ↩️ Restaurar GRUB anteriormente / originalmente: en el programa, con un solo botón, Restaurar GRUB originalmente, deja el GRUB como nuevo, como antes.
