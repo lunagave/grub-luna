@@ -2,16 +2,7 @@
 
 Proyectos revividos y mejorados por Fernando - cada proyecto a revivir va aqui
 
-## Proyectos a revivir
-
 - Luna — https://github.com/lunagave/Lunagave
-- Dynamic-Wallpapers-Linux
-- GrelinTB
-- QuickWall
-- wallger
-- Simple Wallpaper Changer
-- Better Backgrounds
-- wallspla.sh
 
 ## Nota
 
