@@ -42,9 +42,21 @@ Al guardar los cambios, grub-luna reescribe y actualiza los archivos internos de
 - /boot/grub/themes/
 
 
+## 🚀 Mejoras
+- No se pierde el GRUB, con un solo botón se restaura como nuevo
+- Copia de seguridad automática antes de cambiar nada
+- Sin pantallas técnicas, sin CFG_DIR, sin DEVICEMAP_FILE
+- Interfaz Glass morada, moderna, fácil, sin terminal
+- Video como fondo, iconos, temas, Biblioteca como tienda con Descargar.
+
+
 ## 💻 Comandos
-### Arch
+### 🐧 Arch Pacman
 sudo pacman -S --needed --noconfirm zenity && curl -L https://github.com/lunagave/proyecto/raw/main/grub-luna-launcher1.zip -o ~/Descargas/grub-luna-launcher1.zip && cd ~/Descargas && unzip -o grub-luna-launcher1.zip && makepkg -si && bash ~/Descargas/grub-luna-installer.sh
-### Debian / Ubuntu
+### 🟠 Debian / Ubuntu .deb
 curl -L https://github.com/lunagave/proyecto/raw/main/grub-luna_0.1_all.deb -o ~/Descargas/grub-luna_0.1_all.deb && cd ~/Descargas && sudo dpkg -i grub-luna_0.1_all.deb && sudo apt install -f
+
+### 💻 Actualiza tu GRUB
+Arch: sudo grub-mkconfig -o /boot/grub/grub.cfg
+Debian/Ubuntu: sudo update-grub
 
