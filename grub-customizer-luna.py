@@ -61,8 +61,10 @@ ICONOS = [
 VIDEOS_ANIME = [
     "Bleach - Ichigo", "Bleach - Bankai", "Anime ejemplo", "Anime real",
     "Video ejemplo", "Video tranquilo", "Video realista",
+    "Naruto - Hokage", "One Piece - Luffy", "Dragon Ball - Goku",
+    "Demon Slayer - Tanjiro", "Jujutsu Kaisen - Gojo", "Attack on Titan - Eren",
 ]
-IMAGENES_ANIME = [f"Anime fondo {i:02d}" for i in range(1, 7)]
+IMAGENES_ANIME = [f"Anime fondo {i:02d}" for i in range(1, 21)]
 ICONOS_BIBLIOTECA = [f"Icono {nombre}" for _, nombre in ICONOS[:20]]
 
 
