@@ -1,6 +1,11 @@
 # 🌙 grub-luna v1.0
 Personaliza tu GRUB, fácil, sin perderlo nunca.
 Basada en grub-customizer solo como información, crédito a Daniel Richter, su autor original.
+![Glass final](media-generation-grub-luna-glass-final-0-ba52cf50-fd84-44dd-b661-f6e95d7c9b6a.webp)
+![Poner fondo](media-generation-grub-luna-poner-quitar-fondo-0-bd7848b7-f6dd-4731-9d99-0cad7039a070.webp)
+![Iconos bonitos](media-generation-grub-luna-grubs-iconos-bonitos-0-13863d90-e98e-4802-811e-b1ae4de8b3c2.webp)
+![Biblioteca](media-generation-grub-luna-biblioteca-0-88380d4b-0edf-4bfc-ba22-b86cc22dd8ae.webp)
+![Acerca](media-generation-grub-luna-acerca-actualizado-0-b74ba500-5842-414a-a629-6e101b28885a.webp)
 Hecho por Vega & Kiki / Guzman
 
 ## 🔄 Diferencias: GRUB viejo y nuevo
