@@ -8,12 +8,40 @@ Basada en grub-customizer solo como información, crédito a Daniel Richter, su 
 ![Acerca](media-generation-grub-luna-acerca-actualizado-0-b74ba500-5842-414a-a629-6e101b28885a.webp)
 Hecho por Vega & Kiki / Guzman
 
+
+
+
 ## 🔄 Diferencias: GRUB viejo y nuevo
 - ❌ Viejo: se perdía el GRUB, había que reinstalar la distro | ✅ Nuevo: un solo botón Restaurar GRUB, queda como nuevo
 - ❌ Viejo: pantallas técnicas CFG_DIR, DEVICEMAP_FILE, dolor de cabeza | ✅ Nuevo: sin pantallas técnicas, fácil, sin terminal
 - ❌ Viejo: a veces no leía los archivos | ✅ Nuevo: lee todos los archivos de GRUB, verifica y hace copia de seguridad
 - ❌ Viejo: interfaz vieja, GTK3 | ✅ Nuevo: interfaz Glass morada, moderna, con barrita Luna
 - ❌ Viejo: sin video, sin iconos, sin tienda | ✅ Nuevo: video de fondo, Cambiar iconos con más de 20 estilos, Biblioteca como tienda con Descargar
+
+
+
+
+## 🛠️ Lenguaje y diferencia con grub-customizer
+
+
+El lenguaje NO es diferente, es el mismo de Luna: Python y tkinter.
+
+
+**Luna está hecha con:** Python, tkinter (ventana), mpv (fondo), makepkg (paquete Arch), zenity (instalador gráfico).
+
+
+**grub-luna está hecha con:** Python y tkinter, como Luna, fácil, sin comandos, sin terminal.
+
+
+**grub-customizer original está hecho con:** C++ y GTK, difícil, con pantallas técnicas.
+
+
+**Diferencia del programa:**
+- grub-customizer: C++, GTK3, pantallas técnicas CFG_DIR y DEVICEMAP_FILE, a veces se pierde el GRUB, hay que reinstalar la distro.
+- grub-luna: Python, tkinter, interfaz Glass morada, lee todos los archivos, hace copia de seguridad, Restaurar GRUB con un solo botón, video de fondo, iconos y Biblioteca como tienda.
+
+
+Pero mejor función: grub-luna funciona mejor que grub-customizer, no se pierde el GRUB, con un solo botón se restaura como nuevo.
 
 ## ✨ Funciones
 - 📖 Lee todos los archivos de GRUB
@@ -30,11 +58,17 @@ Hecho por Vega & Kiki / Guzman
 - ❓ Acerca, con gatito negro y ?, basada, funciones, errores del anterior GRUB y mejoras
 - 🆘 Soporte / Ayuda: https://github.com/lunagave/grub-luna
 
+
+
+
 ## 🗂️ Todo tipo de archivos
 - Temas completos: .tar, .tar.gz, .tar.xz, con theme.txt, iconos y fuentes
 - Imágenes de fondo: .png, .jpg / .jpeg, .tga
 - Tipografías: fuentes del sistema o .pf2
 - Archivos del sistema: /etc/default/grub, /etc/grub.d/, /boot/grub/grub.cfg, /boot/grub/themes/
+
+
+
 
 ## 🚀 Mejoras
 - No se pierde el GRUB, con un solo botón se restaura como nuevo
@@ -43,6 +77,9 @@ Hecho por Vega & Kiki / Guzman
 - Interfaz Glass morada, moderna, fácil, sin terminal
 - Video como fondo, iconos, temas, Biblioteca como tienda con Descargar
 
+
+
+
 ## 💻 Comandos
 ### 🐧 Arch Pacman
 ```bash
@@ -50,14 +87,4 @@ sudo pacman -S --needed --noconfirm zenity && curl -L https://github.com/lunagav
 ```
 ### 🟠 Debian / Ubuntu .deb
 ```bash
-curl -L https://github.com/lunagave/grub-luna/raw/main/grub-luna_1.0_all.deb -o ~/Descargas/grub-luna_1.0_all.deb && cd ~/Descargas && sudo dpkg -i grub-luna_1.0_all.deb && sudo apt install -f
-```
-### 💻 Actualiza tu GRUB
-Arch:
-```bash
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
-Debian/Ubuntu:
-```bash
-sudo update-grub
-```
+curl -L https://github.com/lunagave/grub-luna/raw/main/grub-luna_1.0_all.deb -o ~/Descargas/grub-luna_1.0_all.deb && cd ~/Descargas &&
